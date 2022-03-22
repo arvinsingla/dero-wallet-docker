@@ -1,0 +1,16 @@
+version: '3'
+services:
+  dero-wallet:
+    image: arvinsingla/dero-wallet:latest
+    restart: unless-stopped
+    container_name: dero-wallet
+    volumes:
+      - /mnt/dero/wallet:/mnt/dero
+    ports:
+      - 20209:20209
+    command: >-
+      --wallet-file=/mnt/dero/dero-wallet.db
+      --password=YOUR_WALLET_PASSWORD
+      --daemon-address=derod:10102
+      --rpc-server
+      --rpc-bind=0.0.0.0:20209
