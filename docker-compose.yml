@@ -4,6 +4,8 @@ services:
     image: arvinsingla/dero-wallet:latest
     restart: unless-stopped
     container_name: dero-wallet
+    tty: true
+    stdin_open: true
     volumes:
       - /mnt/dero/wallet:/mnt/dero
     ports:
