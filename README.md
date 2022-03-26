@@ -10,11 +10,9 @@ I built this for myself to easily host on my home infrastructure. No association
 
 Don't just blindly trust any container you find. Read the source to make sure there's nothing malicious.
 
-https://github.com/arvinsingla/dero-wallet-docker
-
 ## Docker Hub
 
-This repo is used to build the images available at:
+This repo is used to build the images available at: https://github.com/arvinsingla/dero-wallet-docker
 
 https://hub.docker.com/r/arvinsingla/dero-wallet
 
