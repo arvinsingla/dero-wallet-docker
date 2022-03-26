@@ -1,6 +1,6 @@
 # Dero Wallet CLI docker container
 
-A simple docker container for the dero wallet cli
+Unofficial simple docker container for the dero wallet cli
 
 When I say simple, I mean simple. All this docker container does is pull the most recently released binary and pass along whatever dero-wallet-cli commands you want and executes them against the binary.
 
